@@ -8,7 +8,6 @@ import networkx as nx
 from util import read_nxgraph
 from util import obj_maxcut
 from util import transfer_nxgraph_to_weightmatrix
-from config import *
 
 # init_solution is useless
 def greedy_maxcut(init_solution, num_steps: int, graph: nx.Graph) -> (int, Union[List[int], np.array], List[int]):

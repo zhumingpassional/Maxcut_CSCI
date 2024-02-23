@@ -9,7 +9,6 @@ import networkx as nx
 from util import read_nxgraph
 from util import obj_maxcut
 
-from config import *
 def simulated_annealing(init_temperature: int, num_steps: int, graph: nx.Graph) -> (int, Union[List[int], np.array], List[int]):
     print('simulated_annealing')
 
