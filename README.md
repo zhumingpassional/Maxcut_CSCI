@@ -1,0 +1,2 @@
+# Maxcut_CSCI
+Maxcut
