@@ -11,7 +11,7 @@ python simulated_annealing.py
 
 Take g14.txt as an example:
 
-800 4694 
+800 4694 # The number of nodes is 800, and the number of edges is 4694.
 
 1 7 1 # node 1 connects node 7, and the weight is 1
 
@@ -21,7 +21,7 @@ Take g14.txt as an example:
 
 1 13 1
 
-The number of nodes is 800, and the number of edges is 4694.
+
 
 
 
