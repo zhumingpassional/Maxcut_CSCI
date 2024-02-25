@@ -15,11 +15,10 @@ Take g14.txt as an example:
 
 1 7 1 # node 1 connects node 7, and the weight is 1
 
-1 10 1
+1 10 1 # node 1 connects node 10, and the weight is 1
 
-1 12 1
+1 12 1 # node 1 connects node 12, and the weight is 1
 
-1 13 1
 
 
 
