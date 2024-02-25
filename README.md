@@ -25,7 +25,7 @@ Results will be written to a file result.txt in the folder "result". The first c
 The partial results are stored in [Google Drive](https://drive.google.com/drive/folders/1gkpndZPj09ew-s9IvrWEZvvCFDWzd7vL?usp=sharing).
 
 ## Performance
-In the following experiments, we use GPU during training by default. 
+In the following experiments, we use GPU during training by default. The best-known results are labed by bold.
 
 
 1) __Gset__
@@ -41,6 +41,7 @@ In the following experiments, we use GPU during training by default.
 |G50 | 3000 | 6000 | __5880__  | __5880__|__5880__ |__5880__| 5820  |__5880__         |__5880__       |0              | __5880__|  +0\% | 
 |G55 | 5000 | 12468| 10294     | 9960    | 10236   | 10116  | 10138 | 10103           | 10103         | 11.92\%       |__10298__ |  +0.04\% | 
 |G70 | 10000| 9999 |9541       | 9456    | 9458    | -      | 9421  | 9489            | 9490          |2.26\%         |__9583__ | +0.44\% | 
+
 
 2) __Syn__ 
 
