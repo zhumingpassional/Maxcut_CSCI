@@ -1,6 +1,3 @@
-## Results
-
-链接: https://pan.baidu.com/s/1Qg-VEMvrAB_cUpYLMBubiw 提取码: gc8y
 
 ## Run algorithms
 
