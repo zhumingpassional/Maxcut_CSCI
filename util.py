@@ -13,12 +13,10 @@ import pandas as pd
 import torch as th
 from torch import Tensor
 from os import system
-from config import *
 import math
 from enum import Enum
 import tqdm
 import re
-from config import *
 try:
     import matplotlib as mpl
     import matplotlib.pyplot as plt
