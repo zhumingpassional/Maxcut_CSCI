@@ -1,7 +1,7 @@
 
 ## Run algorithms
 
-Format:
+Command:
 ```
 python greedy.py
 python random_walk.py
@@ -9,24 +9,20 @@ python simulated_annealing.py
 ```
 ## Datasets
 
-Take g14.txt as an example:
+Take g14.txt (an undirected graph iwth 800 nodes and 4694 edges) as an example:
 
-800 4694 # The number of nodes is 800, and the number of edges is 4694.
+800 4694 # #nodes is 800, and #edges is 4694.
 
-1 7 1 # node 1 connects node 7, and the weight is 1
+1 7 1 # node 1 connects with node 7, weight = 1
 
-1 10 1 # node 1 connects node 10, and the weight is 1
+1 10 1 # node 1 connects node 10,  weight = 1
 
-1 12 1 # node 1 connects node 12, and the weight is 1
-
-
+1 12 1 # node 1 connects node 12, weight = 1
 
 
+## Results 
 
-
-## Store Results 
-
-Results will be written to a file result.txt in the folder "result". The first column is the node, and the second column is the label of classified set. For example, 
+Results will be written to a file result.txt in the folder "result". The first column is the node, and the second column is the label. For example, 
 
 1 2  # node 1 in set 2
 
