@@ -1,15 +1,15 @@
-
 ## Run algorithms
 
-Command:
+Commands:
 ```
 python greedy.py
 python random_walk.py
 python simulated_annealing.py
 ```
+
 ## Datasets
 
-Take g14.txt (an undirected graph iwth 800 nodes and 4694 edges) as an example:
+Take g14.txt (an undirected graph with 800 nodes and 4694 edges) as an example:
 
 800 4694 # #nodes is 800, and #edges is 4694.
 
@@ -22,7 +22,7 @@ Take g14.txt (an undirected graph iwth 800 nodes and 4694 edges) as an example:
 
 ## Results 
 
-Results will be written to a file result.txt in the folder "result". The first column is the node, and the second column is the label. For example, 
+Results will be written to a file result.txt in the folder "result". The first column is nodes, and the second column is label. 
 
 1 2  # node 1 in set 2
 
@@ -34,11 +34,10 @@ Results will be written to a file result.txt in the folder "result". The first c
 
 5 2  # node 5 in set 2
 
-The partial results are stored in [Google Drive](https://drive.google.com/drive/folders/1gkpndZPj09ew-s9IvrWEZvvCFDWzd7vL?usp=sharing).
+Our results are stored in [Google Drive](https://drive.google.com/drive/folders/1gkpndZPj09ew-s9IvrWEZvvCFDWzd7vL?usp=sharing).
 
 ## Performance
 In the following experiments, we use GPU during training by default. The best-known results are labed by bold.
-
 
 1) __Gset__
 
