@@ -36,11 +36,11 @@ Results will be written to a file xxx.txt in the folder "result". The first colu
 
 
 ## Performance
-In the following experiments, we use GPU during training by default. The best-known results are labed by bold.
+In the following experiments, we used GPU during training by default. The best-known results are labed in bold.
 
-The whole results are stored in the folder "result". Take __Gset__ as an example.
+The results are stored in the folder "result". Take __Gset__ as an example.
 
-[Gset](https://web.stanford.edu/~yyye/yyye/Gset/) is opened by Stanford university. 
+[Gset](https://web.stanford.edu/~yyye/yyye/Gset/) was created by Stanford University. 
 
 | graph | #nodes| #edges | BLS | DSDP    | KHLWG   | RUN-CSP| PI-GNN| Gurobi (0.5 h)  | Gurobi (1 h)  |Gap           | Ours | Improvement | 
 |--- |------|----  |---        |-----    |-----    |--------|-------|------           | ---           | ---           | ----| ----|
@@ -52,9 +52,9 @@ The whole results are stored in the folder "result". Take __Gset__ as an example
 |G55 | 5000 | 12468| 10294     | 9960    | 10236   | 10116  | 10138 | 10103           | 10103         | 11.92\%       |__10298__ |  +0.04\% | 
 |G70 | 10000| 9999 |9541       | 9456    | 9458    | -      | 9421  | 9489            | 9490          |2.26\%         |__9583__ | +0.44\% | 
 
-Some results are denoted by strings. How to transfer the strings to the true result? 
+L2A's results are represented as strings. How to transfer the strings into binary results? 
 
-Take data/syn/powerlaw_100_ID0.txt (using L2A) as an example, the result is "4SuqhIaQimYjyk_sX", which can be transferred to digits by calling the function str_to_bool in EncoderBase64 in evaluator.py. 
+Take data/syn/powerlaw_100_ID0.txt as an example, the result is "4SuqhIaQimYjyk_sX" by L2A, which can be transferred to a binary vector by calling the function str_to_bool in EncoderBase64 in evaluator.py. 
 
 
 
