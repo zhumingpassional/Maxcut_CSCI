@@ -2,7 +2,7 @@
 
 Commands:
 ```
-python greedy.py
+python greedy.py           #Local Search
 python random_walk.py
 python simulated_annealing.py
 ```
